@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-<a onfocus=blur() href="javascript:void(window.open('http://ndolphin-james.github.io/Donut_Test','win0','width=100%,height=100%,status=no,toolbar=no,scrollbars=no'))">메뉴</a>
+<script language="JavaScript">
+function notice() {
+window.open('https://ndolphin-james.github.io/Donut_Test','','location=no, directories=no,resizable=no,status=no,toolbar=no,menubar=no, width=300,height=400,left=0, top=0, scrollbars=no'); }
+</script>
+<body onLoad="notice()">
     <div id="unity-container" class="unity-desktop"
 style="width: 100%; height: 100%">
       <canvas id="unity-canvas"></canvas>
